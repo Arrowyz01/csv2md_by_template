@@ -2,6 +2,9 @@
 - this script helps you to convert csv file to multiple md files by template, the filename of each comes from first column in your csv file.
 - this idea came from [dicussion](https://github.com/Arrowyz01/csv2logseq_block/issues/1) with @candideu !
 
+# csv2md_blocks_by_template (csv2mdbt.py)
+- this script helps you to convert csv file to single md file with several blocks by template. the first-level block of each comes from first column in your csv file. the name of output file is the same as input csv file.
+
 # Preparation
 - python3
 - pandas
@@ -14,12 +17,19 @@
 - but you don't need to replace the blank in column name in csv file by yourself. script will do that. So you can keep column name in csv file as "title name"
 
 # Quick start
-- download csv2mdt.py and put it in the same folder as template.md and filename.csv
-- use shell and 'cd' to that folder
-- use follow command
-    > python csv2mdt.py filename.csv
+- csv2md_by_template (csv2mdt.py)
+    - download csv2mdt.py and put it in the same folder as template.md and filename.csv
+    - use shell and 'cd' to that folder
+    - use follow command
+        > python csv2mdt.py filename.csv
+        
+- csv2md_blocks_by_template (csv2mdbt.py)
+    - download csv2mdbt.py and put it in the same folder as template.md and filename.csv
+    - use shell and 'cd' to that folder
+    - use follow command
+        > python csv2mdbt.py filename.csv
 
-- the output files will be automatically generated in the same folders
+- the output file(s) will be automatically generated in the same folders
 - you can use template.md and data.csv in this repo to play around!
 
 # Video
