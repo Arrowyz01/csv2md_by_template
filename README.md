@@ -1,5 +1,5 @@
 # csv2md_by_template (csv2mdt.py)
-- this script helps you to convert csv file to multiple md files via template, the filename of each comes from first column in your csv file.
+- this script helps you to convert csv file to multiple md files by template, the filename of each comes from first column in your csv file.
 
 # Preparation
 - python3
