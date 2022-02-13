@@ -20,6 +20,7 @@
     > python csv2mdt.py filename.csv
 
 - the output files will be automatically generated in the same folders
+- you can use template.md and data.csv in this repo to play around!
 
 # Video
 
