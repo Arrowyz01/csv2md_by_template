@@ -25,3 +25,6 @@
 
 https://user-images.githubusercontent.com/85311840/153748774-cc13906a-bbf5-479c-a5a8-0280dcb880ce.mp4
 
+# Advanced
+- you can edit the script somehow, such as the path to your template.md and the path to your csv file
+- you can also put the script in $PATH, to make it easier to call
