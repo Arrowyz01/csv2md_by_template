@@ -17,10 +17,10 @@ dict_list=df.to_dict('records')
 # the variables in template.md should be like $title, $name or $title_name
 # the variables in template.md should be corresponding to the file line (colume name) in data.csv
 # but you don't need to replace the blank in column name by yourself. script will do that. So you can keep column name in csv file as "title name"
-with open('./template.md', 'r') as template_file:
+with open('./template.md', 'r', encoding="utf-8") as template_file:
     src = tmp(template_file.read())
     for group in dict_list:
-        output_file = open('./'+group[list(group)[0]]+'.md', 'w')
+        output_file = open('./'+group[list(group)[0]]+'.md', 'w', encoding="utf-8")
         result = src.substitute(group)
         print(result, file=output_file)
         output_file.close()
